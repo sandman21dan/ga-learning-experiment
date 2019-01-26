@@ -15,7 +15,7 @@ const Thing2 = () => <Page title="Thing2" />;
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={'/ga-learning-experiment'}>
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/thing" component={Thing} />
