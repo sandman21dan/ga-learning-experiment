@@ -9,6 +9,7 @@ const ButtonGroup = () => (
     <Link className="btn" to="/about">About me</Link>
     <Link className="btn" to="/thing">Things</Link>
     <Link className="btn" to="/thing-2">More things</Link>
+    <Link className="btn" to="/buy">Buy</Link>
   </div>
 );
 
