@@ -1,0 +1,15 @@
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #9fbff1;
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #6895dc;
+}
